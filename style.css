@@ -1,4 +1,9 @@
-
+.imageheader{
+  background-image: url(cat-1508613_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+}
 nav {
   font-size: 20px ;
   background-color: #3a1e1e;
@@ -24,9 +29,7 @@ nav a:hover{
   background-color:#ffa88b
 }
 
-.video {
-  position: center;
-}
+
 .border {
   margin: 10px;
 }
@@ -49,12 +52,15 @@ nav a:hover{
 #max{
   max-height: 900px;
 }
-
+.catlogo {
+width:35px;
+height: 35px ;
+float: right;
+}
 .imgcat{
 width: 230px; ;
 max-height: 200px;
 border-radius: 50%;
-shape-outside: circle(60%) ; 
 }
 
 body {
@@ -65,11 +71,11 @@ body {
   margin: 0;
 }
 footer {
-  padding: 0;
+  padding: 10px;
   text-align: center;
   position:relative;
   color: #ffffff;
-  width: 101.5%;
+  width: 100%;
   bottom: 0px;
   background-color: #3a1e1e;
 }
